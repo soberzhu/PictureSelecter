@@ -24,7 +24,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/xdja_feed_back_picture_delete"
+        android:background="@drawable/picture_delete"
         android:visibility="gone"/>
 
 

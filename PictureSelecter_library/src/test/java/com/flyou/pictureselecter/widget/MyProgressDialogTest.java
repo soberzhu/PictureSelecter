@@ -16,10 +16,10 @@ import static org.robolectric.Shadows.shadowOf;
 /**
  * Created by wanjing on 2017/3/25.
  */
-public class JXProgressDialogTest extends BaseTest {
+public class MyProgressDialogTest extends BaseTest {
 
     // class under test
-    private JXProgressDialog jxProgressDialog;
+    private MyProgressDialog jxProgressDialog;
 
     private String msg = "some test";
 
@@ -28,7 +28,7 @@ public class JXProgressDialogTest extends BaseTest {
     public void setUp() throws Exception {
         super.setUp();
 
-        jxProgressDialog = new JXProgressDialog();
+        jxProgressDialog = new MyProgressDialog();
     }
 
     @Test

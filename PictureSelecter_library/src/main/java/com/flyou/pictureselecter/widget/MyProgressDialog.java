@@ -19,7 +19,7 @@ import com.flyou.pictureselecter.R;
 /**
  * Created by apple on 15/5/19.
  */
-public class JXProgressDialog {
+public class MyProgressDialog {
     private Dialog dialog = null;
 
     public void show(@NonNull Context context, String msg, boolean cancelOnTouchOutside, boolean cancelable, DialogInterface.OnCancelListener cancel) {
