@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/xdja_picture_selector_title_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/gv_pics"
+            android:scrollbarStyle="outsideOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="@dimen/picture_selector_padding_2"
+            android:verticalSpacing="@dimen/picture_selector_padding_2"
+            android:columnWidth="@dimen/picture_selector_column_w_h"
+            android:numColumns="auto_fit"
+            android:animateLayoutChanges="true"
+            android:listSelector="@null"
+            android:cacheColorHint="@android:color/transparent" />
+        <LinearLayout android:id="@+id/ll_click_area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:background="@color/picture_selector_cor2"
+            android:visibility="gone">
+            <ListView
+                android:id="@+id/lv_pics"
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:listSelector="@null"
+                android:cacheColorHint="@android:color/transparent"
+                android:dividerHeight="@dimen/picture_selector_dividerHeight"
+                android:divider="@color/picture_selector_cor3"
+                android:layout_marginBottom="@dimen/picture_selector_column_w_h"/>
+        </LinearLayout>
+
+        <ProgressBar android:id="@+id/pb_loading"
+            android:layout_width="@dimen/picture_selector_padding_32"
+            android:layout_height="@dimen/picture_selector_padding_32"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/inner_animation"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="picture_selector_size_20">20dp</dimen>
+    <dimen name="picture_selector_size_16">16dp</dimen>
+    <dimen name="picture_selector_size_14">14dp</dimen>
+    <dimen name="picture_selector_size_12">12dp</dimen>
+    <dimen name="picture_selector_size_10">10dp</dimen>
+    <dimen name="picture_selector_dividerHeight">1dp</dimen>
+
+    <dimen name="picture_selector_padding_2">2dp</dimen>
+    <dimen name="picture_selector_padding_4">4dp</dimen>
+    <dimen name="picture_selector_padding_6">6dp</dimen>
+    <dimen name="picture_selector_padding_8">8dp</dimen>
+    <dimen name="picture_selector_padding_14">14dp</dimen>
+    <dimen name="picture_selector_padding_16">16dp</dimen>
+    <dimen name="picture_selector_padding_12">12dp</dimen>
+    <dimen name="picture_selector_padding_20">20dp</dimen>
+    <dimen name="picture_selector_padding_32">32dp</dimen>
+    <dimen name="picture_selector_padding_10">10dp</dimen>
+    <dimen name="picture_selector_padding_40">40dp</dimen>
+    <dimen name="picture_selector_padding_56">56dp</dimen>
+    <dimen name="picture_selector_padding_64">64dp</dimen>
+    <dimen name="picture_selector_column_w_h">118dp</dimen>
+    <!--progress_dialog-->
+    <dimen name="picture_selector_progress_dialog_width">296dp</dimen>
+    <dimen name="picture_selector_progress_dialog_height">56dp</dimen>
+</resources>

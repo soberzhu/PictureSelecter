@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item format="float" name="faceitem_small" type="string">0.68</item>
+    <item format="float" name="faceitem_small_talklist" type="string">0.48</item>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/picture_selector_padding_64"
+    android:paddingLeft="@dimen/picture_selector_padding_16"
+    android:paddingRight="@dimen/picture_selector_padding_16"
+    android:background="@color/picture_selector_cor6">
+    <ImageView android:id="@+id/img_pic"
+        android:layout_width="@dimen/picture_selector_padding_40"
+        android:layout_height="@dimen/picture_selector_padding_40"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/picture_selector_padding_12"
+
+        tools:ignore="ContentDescription" />
+    <TextView android:id="@+id/tv_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/picture_selector_padding_12"
+        android:layout_toRightOf="@id/img_pic"
+        android:textSize="@dimen/picture_selector_size_16"
+        android:textColor="@color/picture_selector_cor1"/>
+    <TextView android:id="@+id/tv_file_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_pic"
+        android:layout_below="@id/tv_file_name"
+        android:textSize="@dimen/picture_selector_size_12"
+        android:textColor="@color/picture_selector_cor2"
+        android:layout_marginTop="@dimen/picture_selector_padding_4"/>
+    <ImageView android:id="@+id/img_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_selected"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>

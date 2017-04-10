@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">myImageSelecter</string>
+    <string name="select">选择</string>
+    <string name="file_max_size">只能选择%1$s以内的文件</string>
+    <string name="pic_invalid">图片不存在，无法发送</string>
+    <string name="all_picture">所有图片</string>
+    <string name="all_video">所有视频</string>
+    <string name="all_pic_video">图片和视频</string>
+    <string name="maxnum">最多只能选择%1$d张图片</string>
+
+</resources>

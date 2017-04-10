@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="picture_selector_cor1">#e5000000</color>
+    <color name="picture_selector_cor2">#66000000</color>
+    <color name="picture_selector_cor3">#cccccc</color>
+    <color name="picture_selector_cor6">#ffffff</color>
+    <color name="picture_selector_cor10">#e7f0f9</color>
+    <color name="picture_selector_cor14">#3173ba</color>
+    <color name="picture_selector_white">#ffffffff</color>
+    <color name="picture_selector_black">#ff000000</color>
+</resources>

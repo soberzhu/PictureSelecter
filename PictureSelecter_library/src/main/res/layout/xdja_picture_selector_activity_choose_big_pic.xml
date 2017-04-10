@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.flyou.pictureselecter.widget.ViewPagerFixed
+        android:id="@+id/vPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+    <include layout="@layout/xdja_picture_selector_choose_big_pic_title_bar"/>
+    <include layout="@layout/xdja_picture_selector_choose_big_pic_foot"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/picture_selector_padding_56"/>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/picture_selector_padding_56"
+    android:background="@color/picture_selector_cor14">
+    <ImageButton android:id="@+id/imgbtn_back"
+        android:layout_width="@dimen/picture_selector_padding_56"
+        android:layout_height="@dimen/picture_selector_padding_56"
+        android:src="@drawable/btn_back"
+        android:background="@null"
+        tools:ignore="ContentDescription" />
+
+    <TextView android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/imgbtn_back"
+        android:gravity="center"
+        android:textColor="@color/picture_selector_cor6"
+        android:textSize="@dimen/picture_selector_size_20"
+        android:clickable="true"/>
+
+    <TextView android:id="@+id/tv_operate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/picture_selector_padding_16"
+        android:gravity="center"
+        android:textColor="@color/picture_selector_cor6"
+        android:textSize="@dimen/picture_selector_size_16"
+        android:clickable="true"/>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/picture_selector_cor14</item>styles.xml
+        <item name="android:textColorPrimary">@color/picture_selector_cor6</item>
+        <item name="android:windowBackground">@color/picture_selector_cor10</item>
+
+        <item name="colorPrimaryDark">@color/picture_selector_cor14</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/picture_selector_cor14</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+
+
+    <style name="DialogWindowTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#e5000000</item>
+    </style>
+
+    <style name="DialogWindowTitle.DeviceDefault">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/DialogWindowTitle</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.Dialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.DeviceDefault</item>
+    </style>
+
+    <style name="dialog" parent="Theme.AppCompat.Light.Dialog">
+
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+</resources>
