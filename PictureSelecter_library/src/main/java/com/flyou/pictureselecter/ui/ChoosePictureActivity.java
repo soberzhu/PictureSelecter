@@ -128,10 +128,10 @@ public class ChoosePictureActivity extends Activity
         this.operate = (TextView) findViewById(R.id.tv_operate);
 
         title_bar.setBackgroundColor(config.getTitleBarBgColor());
-        StatusBarCompat.compat(this, config.getStatusBarColor());
+        //StatusBarCompat.compat(this, config.getStatusBarColor());
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT
                 && Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            //getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 
         }
     }
