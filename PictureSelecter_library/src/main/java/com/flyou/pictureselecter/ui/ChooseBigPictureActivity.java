@@ -58,8 +58,8 @@ public class ChooseBigPictureActivity extends Activity
         super.onCreate(savedInstanceState);
         config = PictureSelectorConfig.getInstance();
         //不显示系统的标题栏
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                //WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.xdja_picture_selector_activity_choose_big_pic);
 
 
